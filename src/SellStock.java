@@ -1,3 +1,4 @@
+
 public class SellStock implements Order{
 	private Stock stock;
 	private int quantity;

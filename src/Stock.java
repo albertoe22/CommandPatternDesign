@@ -13,6 +13,6 @@ public class Stock {
         System.out.println("SOLD: " + quantity + "x " + this);
     }
     public String toString() {
-        return "Product [name=" + name + ", price=" + price + "]";
+        return "Product [name=" + name + ", price=" + price + "]"	;
     }
 }
