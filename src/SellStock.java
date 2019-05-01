@@ -10,7 +10,7 @@ public class SellStock implements Order{
 
 	@Override
 	public void execute() {
-		stock.buy(quantity);
+		stock.sell(quantity);
 		
 	}
 	
