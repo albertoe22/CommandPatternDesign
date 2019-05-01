@@ -6,10 +6,10 @@ public class ClientClass {
 			Scanner in = new Scanner(System.in);
 			System.out.println("What stock would you like to buy? What is it's Price? / quit");
 			String phrase = in.nextLine();
-//			if (phrase.equalsIgnoreCase("quit")) {
-//				break;
-//			}
-//			else {
+			if (phrase.equalsIgnoreCase("quit")) {
+				break;
+			}
+			else {
 			
 			String delims = "[ ]+";
 			String[] tokens = phrase.split(delims);
@@ -25,9 +25,10 @@ public class ClientClass {
 			broker.takeOrder(buyStockOrder);
 			broker.takeOrder(sellStockOrder);
 			broker.placeOrders();
-			//}
+			}
 			
 		}
+		System.out.println("Program ending");
 	
 	}
 
